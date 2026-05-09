@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 
 // ── API base & helpers ────────────────────────────────────────────────────────
-const API = "http://localhost:8000";
+const API = "https://backend-xyz.up.railway.app";
 
 async function apiFetch(path, options = {}, token = null) {
   const headers = { "Content-Type": "application/json" };
